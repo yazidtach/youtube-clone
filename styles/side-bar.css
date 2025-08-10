@@ -1,0 +1,22 @@
+aside{
+    position: fixed;
+    top: 66px;
+    left: 0;
+    bottom: 0;
+    width: 130px;
+    background-color: white;
+}
+
+aside div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+aside div img{
+    height: 30px;
+}
+
+
