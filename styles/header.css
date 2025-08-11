@@ -11,6 +11,7 @@ header{
     top: 0;
     background-color: white;
     padding: 10px ;
+    z-index: 100;
 }
 .left-section{
     width: 150px;
@@ -65,7 +66,7 @@ input::placeholder{
     border-radius: 100%;
     padding: 10px;
     border: none;
-    background-color: gb(248, 248, 248);;
+    background-color: rgb(248, 248, 248);;
 
 }
 .voice-search{
@@ -84,7 +85,21 @@ input::placeholder{
     height: 30px;
     margin-left: 15px;
 }
+.notification-container{
+    position: relative;
+}
+.notification-number{
+    position: absolute;
+    top: -14px;
+    right: -5px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(196, 9, 9);
+    color: white;
+    padding: 3px 6px;
+    border-radius: 100%;
 
+}
 .current-user{
     width: 40px;
     height: 40px;

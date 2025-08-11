@@ -9,11 +9,21 @@
 
 .thumbnail-container{
     margin: 0px;
+    position: relative;
 }
 .thumbnail{
     width: 100%;
 }
-
+.video-time{
+    position: absolute;
+    right: 12px;
+    bottom: 20px;
+    background-color: black;
+    color: white;
+    padding: 5px 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
 
 
 .youtube-video-info{
