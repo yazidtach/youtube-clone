@@ -57,7 +57,13 @@ input::placeholder{
     margin-left: -2px;
     margin-right: 30px;
     border: 1px solid rgb(202, 197, 197);
+    cursor: pointer;
 }
+
+.search-button:hover{
+    
+}
+
 .search-icon{
     height: 30px;
     margin-left: -3px;
@@ -107,3 +113,42 @@ input::placeholder{
 }
 
 
+.search-container{
+    position: relative;
+}
+
+.search-tool-tip{
+    position: absolute;
+    left: -14px;
+    top: 30px;
+    background-color: gray;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 1s;
+    pointer-events: none;
+}
+
+.search-container:hover .search-tool-tip{
+    opacity: 1;
+}
+
+.voice-tool-tip{
+    position: absolute;
+    left: -30px;
+    top: 40px;
+    background-color: gray;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    width: 100px;
+    padding: 8px 0px 8px 15px;
+    opacity: 0;
+    transition: opacity 1s;
+    pointer-events: none;
+}
+
+.search-container:hover .voice-tool-tip{
+    opacity: 1;
+}
