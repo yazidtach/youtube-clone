@@ -44,11 +44,13 @@ input{
     height: 35px;
     border: 1px solid rgb(202, 197, 197);
     width: 400px;
+    padding: 0 20px;
+    font-size: 18px;
 }
 
 input::placeholder{
     font-size: 17px;
-    padding-left: 15px;
+    padding-left: 1px;
 }
 
 .search-button{
@@ -58,10 +60,6 @@ input::placeholder{
     margin-right: 30px;
     border: 1px solid rgb(202, 197, 197);
     cursor: pointer;
-}
-
-.search-button:hover{
-    
 }
 
 .search-icon{
