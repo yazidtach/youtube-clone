@@ -27,3 +27,34 @@ aside div img{
     background-color: rgba(192, 192, 192, 0.76);
 }
 
+@media(max-width: 550px) {
+    aside {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 60px; /* give it a fixed height instead of width */
+        width: 100%;
+        background-color: white;
+        display: flex; /* make children inline */
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row; /* horizontal layout */
+        border-top: 1px solid #ccc; /* optional, to separate */
+    }
+
+    aside div {
+        margin-top: 0; /* remove vertical spacing */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    aside div img {
+        height: 25px; /* a bit smaller for mobile */
+    }
+
+    .hover-side-effect {
+        padding: 5px 10px;
+    }
+}

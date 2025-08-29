@@ -150,3 +150,8 @@ input::placeholder{
 .search-container:hover .voice-tool-tip{
     opacity: 1;
 }
+
+
+@media (max-width:450px) {
+    
+}
