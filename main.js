@@ -45,7 +45,6 @@ video.forEach((video)=>{
 }
 )
 
-videoContainer.innerHTML = htmlVideo
 
-console.log(htmlVideo)
-console.log(videoContainer)
+// to insert the html stored in htmlVideo var 
+videoContainer.innerHTML = htmlVideo
